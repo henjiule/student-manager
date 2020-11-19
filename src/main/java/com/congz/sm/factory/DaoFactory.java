@@ -1,7 +1,9 @@
 package com.congz.sm.factory;
 
 import com.congz.sm.dao.AdminDao;
+import com.congz.sm.dao.DepartmentDao;
 import com.congz.sm.dao.impl.AdminDaoImpl;
+import com.congz.sm.dao.impl.DepartmentDaoImpl;
 
 /**
  * @ClassName DaoFactory
@@ -17,5 +19,14 @@ public class DaoFactory {
      */
     public static AdminDao getAdminDaoInstance() {
         return new AdminDaoImpl();
+    }
+
+    /**
+     * 获取DepartmentDao实例
+     *
+     * @return AdminDao实例
+     */
+    public static DepartmentDao getDepartmentDaoInstance() {
+        return new DepartmentDaoImpl();
     }
 }

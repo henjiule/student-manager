@@ -1,7 +1,9 @@
 package com.congz.sm.factory;
 
 import com.congz.sm.service.AdminService;
+import com.congz.sm.service.DepartmentService;
 import com.congz.sm.service.impl.AdminServiceImpl;
+import com.congz.sm.service.impl.DepartmentServiceImpl;
 
 /**
  * @ClassName ServiceFactory
@@ -14,4 +16,7 @@ public class ServiceFactory {
         return new AdminServiceImpl();
 
     }
+public static DepartmentService getDepartmentServiceInstance() {
+        return new DepartmentServiceImpl();
+}
 }

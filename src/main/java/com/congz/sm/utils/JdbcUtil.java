@@ -65,7 +65,7 @@ public class JdbcUtil {
     /**
      * 关闭连接
      */
-    public void closeConnection() {
+    public static void closeConnection() {
         if (connection != null) {
             try {
                 connection.close();
