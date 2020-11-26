@@ -7,4 +7,13 @@ import java.util.List;
 public interface DepartmentService {
 
     List<Department> selectAll();
+
+    /**
+     *
+     * @param department 入参
+     * @return int
+     */
+    int addDepatrment(Department department);
 }
+
+

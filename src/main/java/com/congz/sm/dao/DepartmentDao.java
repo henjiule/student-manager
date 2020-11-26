@@ -19,4 +19,12 @@ public interface DepartmentDao {
      * @throws java.sql.SQLException 异常
      */
     List<Department> getAll() throws SQLException;
+
+    /**
+     *
+     * @param department 入参
+     * @return int
+     * @throws SQLException 异常
+     */
+    int insertDepartment(Department department) throws SQLException;
 }

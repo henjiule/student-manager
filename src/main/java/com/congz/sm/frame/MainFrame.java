@@ -5,6 +5,7 @@ import com.congz.sm.factory.ServiceFactory;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.File;
 import java.util.List;
 
 /**
@@ -25,6 +26,8 @@ public class MainFrame extends JFrame{
     private JPanel classPanel;
     private JPanel studentPanel;
     private JPanel rewardPanel;
+    private String uploadFileUrl;
+    private File file;
 
     private final CardLayout c;
 
@@ -64,7 +67,9 @@ public class MainFrame extends JFrame{
         //根据院系总数算出行数 (每行放4个)
         int row = len % 4 == 0 ? len / 4 : len / 4 + 1;
         //创建一个网络布局,每行4列，指定水平和垂直间距
-        GridLayout girldLayout = new GridLayout();
+        GridLayout girldLayout = new GridLayout(row,4,15,15);
+        departmentPanel.setLayout(girldLayout);
+
         for (Department department : departmentList) {
             //给每个对象创建一个面板
             JPanel depPanel = new JPanel();
@@ -94,7 +99,8 @@ public class MainFrame extends JFrame{
 
 
     public static void main(String[] args) {
-        new MainFrame();
+
+            new MainFrame();
     }
 
 //    private void createUIComponents() {
