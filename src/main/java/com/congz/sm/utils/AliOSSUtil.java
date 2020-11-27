@@ -20,7 +20,7 @@ public class AliOSSUtil {
      * @return String 上传成功返回的url
      */
     public static String ossUpload(File file){
-        String bucketDomain = "https://stu-manager.oss-cn-beijing.aliyuncs.com/";
+        String bucketDomain = "https://cong-zhang.oss-cn-beijing.aliyuncs.com/";
         String endpoint = "http://oss-cn-beijing.aliyuncs.com";
         String accessKeyId = "LTAI4G4cKheXHciwKFtFFJwk";
         String accessKeySecret = "ex8iUl6SOKA7Svm0SZ7cwXt3pgYPeI";

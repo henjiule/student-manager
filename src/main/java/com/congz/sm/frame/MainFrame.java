@@ -26,6 +26,18 @@ public class MainFrame extends JFrame{
     private JPanel classPanel;
     private JPanel studentPanel;
     private JPanel rewardPanel;
+    private JPanel rightPanel;
+    private JPanel bottomPanel;
+    private JPanel leftPanel;
+    private JTextField depNameField;
+    private JButton 选择图片Button;
+    private JLabel logoLable;
+    private JButton button1;
+    private JButton 新增院系Button;
+    private JButton 切换显示Button;
+    private JPanel contentPanel;
+    private JPanel toolBarPanel;
+    private JPanel addDepPanel;
     private String uploadFileUrl;
     private File file;
 
@@ -41,6 +53,7 @@ public class MainFrame extends JFrame{
         centerPanel.add("4", rewardPanel);
         院系管理Button.addActionListener(e -> {
             c.show(centerPanel, "1");
+            showDepartments();
         });
         班级管理Button.addActionListener(e -> {
             c.show(centerPanel, "2");
@@ -51,7 +64,33 @@ public class MainFrame extends JFrame{
         奖惩管理Button.addActionListener(e -> {
             c.show(centerPanel, "4");
         });
-        showDepartments();
+        //左侧边栏切换效果
+        新增院系Button.addActionListener(e ->{
+            //获取左侧面板的可见性
+            boolean visible = addDepPanel.isVisible();
+            //不可见
+            if (!visible) {
+                //向右侧展开、背景颜色变化、可见
+                leftPanel.setPreferredSize(new Dimension(180,this.getHeight()-100));
+                //addDePanl.setBackground(new Color(55,90,106));
+                addDepPanel.setVisible(true);
+            }else {
+                //向左侧收起、背景颜色还原、不可见
+                leftPanel.setPreferredSize(new Dimension(60,this.getHeight()-100));
+                //addDePanl.setBackground(new Color(114,140,153));
+                addDepPanel.setVisible(false);
+
+            }
+            leftPanel.revalidate();
+
+
+        });
+//        新增院系Button.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent actionEvent) {
+//
+//            }
+//        });
     }
 
     /**
@@ -95,7 +134,8 @@ public class MainFrame extends JFrame{
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         this.setVisible(true);
     }
-    
+
+
 
 
     public static void main(String[] args) {

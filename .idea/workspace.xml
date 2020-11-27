@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b11c3438-bcaa-4bcf-8c8e-121bcca88c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/utils/AliOSSUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/congz/sm/service/DepartmentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/impl/ClassDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/DepartmentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/impl/DepartmentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/impl/DepartmentDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/frame/MainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/frame/MainFrame.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/frame/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/frame/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/service/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/congz/sm/dao/AdminDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/congz/sm/dao/AdminDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/congz/sm/dao/DepartmentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/congz/sm/dao/DepartmentDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/dao/DepartmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/dao/DepartmentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/dao/impl/DepartmentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/dao/impl/DepartmentDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/utils/AliOSSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/utils/AliOSSUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/frame/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/frame/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/congz/sm/dao/DepartmentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/congz/sm/dao/DepartmentDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/service/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/service/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/service/impl/DepartmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/service/impl/DepartmentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/utils/AliOSSUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/utils/AliOSSUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +41,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -117,9 +110,35 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.DepartmentDaoTest.insertDepartment">
+  <component name="RunManager" selected="Application.MainFrame">
+    <configuration name="AdminLoginFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.congz.sm.frame.AdminLoginFrame" />
+      <module name="student-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.congz.sm.frame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AliOSSUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.congz.sm.utils.AliOSSUtil" />
+      <module name="student-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.congz.sm.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.congz.sm.utils.JdbcUtil" />
       <module name="student-manager" />
       <extension name="coverage">
         <pattern>
@@ -144,37 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepartmentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student-manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.congz.sm.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.congz.sm.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.congz.sm.dao.DepartmentDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepartmentDaoTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student-manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.congz.sm.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.congz.sm.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.congz.sm.dao.DepartmentDaoTest" />
-      <option name="METHOD_NAME" value="getAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DepartmentDaoTest.insertDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student-manager" />
       <extension name="coverage">
@@ -193,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DepartmentDaoTest.insertDepartment" />
-        <item itemvalue="Application.AliOSSUtil" />
         <item itemvalue="Application.MainFrame" />
-        <item itemvalue="JUnit.DepartmentDaoTest.getAll" />
-        <item itemvalue="JUnit.DepartmentDaoTest" />
+        <item itemvalue="Application.AdminLoginFrame" />
+        <item itemvalue="Application.JdbcUtil" />
+        <item itemvalue="Application.AliOSSUtil" />
+        <item itemvalue="JUnit.DepartmentDaoTest.insertDepartment" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +221,10 @@
       <workItem from="1606204193764" duration="34000" />
       <workItem from="1606205644111" duration="1513000" />
       <workItem from="1606207182063" duration="737000" />
-      <workItem from="1606375292082" duration="2962000" />
+      <workItem from="1606375292082" duration="12672000" />
+      <workItem from="1606436970208" duration="7994000" />
+      <workItem from="1606474444249" duration="3053000" />
+      <workItem from="1606478406251" duration="274000" />
     </task>
     <servers />
   </component>
@@ -253,46 +244,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605701918358" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1606378023796">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1606478115006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606378023796" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606478115006" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605447735112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605447735112" />
-    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1606377672183">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1606478360950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606377672183" />
-    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1606377672183">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606478360950" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1606478360949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606377672183" />
-    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1606377672183">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606478360949" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1606478360949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606377672183" />
-    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1606377672183">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606478360949" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1606478360949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606377672183" />
-    <state width="1493" height="52" key="GridCell.Tab.1.bottom" timestamp="1605885028646">
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606478360949" />
+    <state width="1493" height="242" key="GridCell.Tab.1.bottom" timestamp="1606388476427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="52" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605885028646" />
-    <state width="1493" height="52" key="GridCell.Tab.1.center" timestamp="1605885028646">
+    <state width="1493" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606388476427" />
+    <state width="1493" height="242" key="GridCell.Tab.1.center" timestamp="1606388476427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="52" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605885028646" />
-    <state width="1493" height="52" key="GridCell.Tab.1.left" timestamp="1605885028646">
+    <state width="1493" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606388476427" />
+    <state width="1493" height="242" key="GridCell.Tab.1.left" timestamp="1606388476427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="52" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605885028646" />
-    <state width="1493" height="52" key="GridCell.Tab.1.right" timestamp="1605885028646">
+    <state width="1493" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606388476427" />
+    <state width="1493" height="242" key="GridCell.Tab.1.right" timestamp="1606388476427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="52" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605885028646" />
+    <state width="1493" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606388476427" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1605701343958">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -314,9 +305,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/congz/sm/frame/AdminLoginFrame.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/congz/sm/utils/JdbcUtil.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
