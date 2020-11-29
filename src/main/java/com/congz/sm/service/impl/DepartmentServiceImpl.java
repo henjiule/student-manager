@@ -32,7 +32,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     }
 
     @Override
-    public int addDepatrment(Department department) {
+    public int addDepartment(Department department) {
         int n = 0;
 
         try {

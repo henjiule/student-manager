@@ -13,7 +13,7 @@ public interface DepartmentService {
      * @param department 入参
      * @return int
      */
-    int addDepatrment(Department department);
+    int addDepartment(Department department);
 }
 
 

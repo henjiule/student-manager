@@ -21,11 +21,16 @@ public class AliOSSUtil {
      */
     public static String ossUpload(File file){
         String bucketDomain = "https://cong-zhang.oss-cn-beijing.aliyuncs.com/";
+        //将Endpoint以杭州为例，其它Region请按实际情况填写
         String endpoint = "http://oss-cn-beijing.aliyuncs.com";
+        //accessKeyId和accessKey5ecret,请填写自己的
         String accessKeyId = "LTAI4G4cKheXHciwKFtFFJwk";
         String accessKeySecret = "ex8iUl6SOKA7Svm0SZ7cwXt3pgYPeI";
+        //Bucket名称
         String bucketName = "cong-zhang";
+        //目录名称
         String fileDir = "img/";
+        //获得本地文件的文件名
         String fileName = file.getName();
         //上传后的文件名生成，这里将客户端的文件名保留扩展名，主文件名用UUID生成
         String fileKey = UUID.randomUUID().toString() + fileName.substring(fileName.indexOf("."));
