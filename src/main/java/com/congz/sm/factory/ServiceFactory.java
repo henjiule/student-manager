@@ -1,8 +1,10 @@
 package com.congz.sm.factory;
 
 import com.congz.sm.service.AdminService;
+import com.congz.sm.service.ClazzService;
 import com.congz.sm.service.DepartmentService;
 import com.congz.sm.service.impl.AdminServiceImpl;
+import com.congz.sm.service.impl.ClazzServiceImpl;
 import com.congz.sm.service.impl.DepartmentServiceImpl;
 
 /**
@@ -19,4 +21,8 @@ public class ServiceFactory {
 public static DepartmentService getDepartmentServiceInstance() {
         return new DepartmentServiceImpl();
 }
+    public static ClazzService getClazzServiceInstance() {
+
+        return new ClazzServiceImpl();
+    }
 }

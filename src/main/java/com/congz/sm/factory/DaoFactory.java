@@ -3,6 +3,8 @@ package com.congz.sm.factory;
 import com.congz.sm.dao.AdminDao;
 import com.congz.sm.dao.DepartmentDao;
 import com.congz.sm.dao.impl.AdminDaoImpl;
+import com.congz.sm.dao.ClazzDao;
+import com.congz.sm.dao.impl.ClazzDaoImpl;
 import com.congz.sm.dao.impl.DepartmentDaoImpl;
 
 /**
@@ -28,5 +30,14 @@ public class DaoFactory {
      */
     public static DepartmentDao getDepartmentDaoInstance() {
         return new DepartmentDaoImpl();
+    }
+
+    /**
+     * 获得ClazzDao实例
+     * @return ClazzDao实例
+     */
+
+    public static ClazzDao getClazzDaoInstance() {
+        return new ClazzDaoImpl();
     }
 }

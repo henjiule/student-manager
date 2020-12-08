@@ -112,9 +112,86 @@
             </constraints>
             <properties>
               <background color="-996172"/>
+              <preferredSize width="456" height="100"/>
             </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <grid id="79cd5" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="5">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="1f045" class="javax.swing.JComboBox" binding="depCombobox">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="100" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <maximumRowCount value="6"/>
+                      <model>
+                        <item value="请选择院系："/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="82be5" class="javax.swing.JTextField" binding="classNameField">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="1fdb4" class="javax.swing.JButton" binding="新增班级Button">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="新增班级"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <splitpane id="34bbc">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <preferredSize width="10" height="10"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="37955" binding="treePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <splitpane position="left"/>
+                    </constraints>
+                    <properties>
+                      <maximumSize width="180" height="2147483647"/>
+                      <minimumSize width="180" height="0"/>
+                      <preferredSize width="180" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <scrollpane id="35a5b">
+                    <constraints>
+                      <splitpane position="right"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="dc278" binding="classContentPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                        <constraints/>
+                        <properties>
+                          <maximumSize width="600" height="32767"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </scrollpane>
+                </children>
+              </splitpane>
+            </children>
           </grid>
           <grid id="aae48" binding="studentPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
             <constraints>
