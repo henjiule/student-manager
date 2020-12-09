@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b11c3438-bcaa-4bcf-8c8e-121bcca88c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/ClazzDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/impl/ClazzDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/entity/Clazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/service/ClazzService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/service/impl/ClazzServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/vo/StudentVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/congz/sm/dao/impl/ClazzDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/impl/StudentDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/dao/impl/ClassDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/entity/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/factory/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/factory/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/factory/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/factory/ServiceFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/frame/MainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/frame/MainFrame.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/frame/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/frame/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congz/sm/utils/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/congz/sm/utils/JdbcUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/dao/impl/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/dao/impl/AdminDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/dao/impl/ClassDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/dao/impl/DepartmentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/dao/impl/DepartmentDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/entity/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/entity/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/factory/DaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/factory/DaoFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/factory/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/factory/ServiceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/frame/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/frame/MainFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/frame/MainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/frame/MainFrame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/frame/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/frame/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/congz/sm/utils/JdbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/congz/sm/utils/JdbcUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +37,8 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,7 +72,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="321" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -209,9 +186,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainFrame" />
+        <item itemvalue="Application.AdminLoginFrame" />
         <item itemvalue="JUnit.DepartmentDaoTest.getAll" />
         <item itemvalue="JUnit.ClazzDaoTest.selectByDepartmentId" />
-        <item itemvalue="Application.AdminLoginFrame" />
         <item itemvalue="Application.AliOSSUtil" />
       </list>
     </recent_temporary>
@@ -256,7 +233,8 @@
       <workItem from="1606713996064" duration="1545000" />
       <workItem from="1607349258578" duration="3558000" />
       <workItem from="1607385369633" duration="20890000" />
-      <workItem from="1607427721018" duration="2290000" />
+      <workItem from="1607427721018" duration="2501000" />
+      <workItem from="1607487238825" duration="5178000" />
     </task>
     <servers />
   </component>
@@ -284,26 +262,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="271" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1607407553761" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607388463246">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607493476698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607388463246" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1607437179757">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607493476698" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1607494417767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607437179757" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1607437179757">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607494417767" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1607494417767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607437179757" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1607437179756">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607494417767" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1607494417767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607437179756" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1607437179757">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607494417767" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1607494417767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607437179757" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607494417767" />
     <state width="1493" height="242" key="GridCell.Tab.1.bottom" timestamp="1607407306593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

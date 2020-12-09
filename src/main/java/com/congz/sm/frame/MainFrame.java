@@ -47,6 +47,12 @@ public class MainFrame extends JFrame{
     private JButton 新增班级Button;
     private JPanel treePanel;
     private JPanel classContentPanel;
+    private JComboBox departmentJBox;
+    private JComboBox clazzJBox;
+    private JTextField searchField;
+    private JButton 搜索Button;
+    private JButton 重置Button;
+    private JButton 新增学生Button;
     private String uploadFileUrl;
     private File file;
 
